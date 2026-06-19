@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanderlust | Explore the World</title>
-    <meta name="description" content="Discover premium travel experiences and hand-picked destinations.">
+    <title>Wanderlust | Curated Travel Experiences</title>
+    <meta name="description" content="Discover premium, hand-picked travel destinations around the world with Wanderlust.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header role="banner">
         <div class="container">
-            <h1 class="logo">Wanderlust</h1>
+            <a href="#" class="logo">Wanderlust</a>
             <nav aria-label="Main Navigation">
                 <ul>
                     <li><a href="#destinations">Destinations</a></li>
@@ -27,48 +27,48 @@
     <main id="main-content">
         <section id="destinations" aria-labelledby="destinations-heading">
             <div class="container">
-                <h2 id="destinations-heading">Popular Destinations</h2>
+                <h2 id="destinations-heading">Explore the Extraordinary</h2>
                 <div class="grid">
                     <article class="destination-card">
                         <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" alt="View of Eiffel Tower in Paris" loading="lazy">
                         <div class="card-content">
                             <h3>Paris</h3>
-                            <p>The city of lights, culture, and timeless romance.</p>
+                            <p>Experience the timeless romance and culture of the City of Lights.</p>
                         </div>
                     </article>
                     <article class="destination-card">
                         <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80" alt="Streets of Tokyo" loading="lazy">
                         <div class="card-content">
                             <h3>Tokyo</h3>
-                            <p>A mesmerizing blend of historic tradition and neon-lit modernity.</p>
+                            <p>Dive into a fascinating fusion of deep-rooted tradition and neon-lit modernity.</p>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="about" aria-labelledby="about-heading">
+        <section id="about" aria-labelledby="about-heading" style="background: white;">
             <div class="container">
-                <h2 id="about-heading">Curated Journeys</h2>
-                <p>We are dedicated to crafting bespoke travel experiences that leave lasting memories.</p>
+                <h2 id="about-heading">Our Philosophy</h2>
+                <p style="text-align: center; max-width: 700px; margin: 0 auto; color: var(--text-muted);">We believe travel should be seamless, inspiring, and deeply personal. We curate journeys that connect you to the soul of every destination.</p>
             </div>
         </section>
 
         <section id="contact" aria-labelledby="contact-heading">
             <div class="container">
-                <h2 id="contact-heading">Plan Your Escape</h2>
+                <h2 id="contact-heading">Begin Your Journey</h2>
                 <form id="contact-form" novalidate>
                     <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required rows="4" placeholder="How can we help you?"></textarea>
+                        <label for="message">Your Dream Destination</label>
+                        <textarea id="message" name="message" required rows="4" placeholder="Tell us where you want to go..."></textarea>
                     </div>
                     <button type="submit" class="btn-primary">Send Inquiry</button>
                 </form>
@@ -78,7 +78,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Wanderlust Travel. All rights reserved.</p>
+            <p>&copy; 2026 Wanderlust Travel Experiences. All rights reserved.</p>
         </div>
     </footer>
 
